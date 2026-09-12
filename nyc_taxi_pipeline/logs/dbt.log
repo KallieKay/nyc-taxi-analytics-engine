@@ -1,0 +1,74 @@
+[0m11:40:44.464239 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019B9D574D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019B9B019450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019B9FE03890>]}
+
+
+============================== 11:40:44.487816 | 0c2c0894-2fa0-4a54-ae1c-a542aa53471a ==============================
+[0m11:40:44.487816 [info ] [MainThread]: Running with dbt=1.12.4
+[0m11:40:44.488934 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\budan\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init transform_dbt', 'log_path': 'logs'}
+[0m11:40:44.630141 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\budan\.dbt
+[0m11:40:44.635206 [debug] [MainThread]: Starter project path: C:\Users\budan\Desktop\kaylan\electives\nyc-taxi-analytics-engine\nyc_taxi_pipeline\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:40:44.703209 [info ] [MainThread]: Setting up your profile.
+[0m11:41:05.398970 [info ] [MainThread]: Profile transform_dbt written to C:\Users\budan\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:41:05.404308 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m11:41:05.412384 [info ] [MainThread]: dbt version: 1.12.4
+[0m11:41:05.418820 [info ] [MainThread]: python version: 3.14.6
+[0m11:41:05.419891 [info ] [MainThread]: python path: C:\Users\budan\Desktop\kaylan\electives\nyc-taxi-analytics-engine\nyc_taxi_pipeline\.venv\Scripts\python.exe
+[0m11:41:05.420877 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m11:41:05.526835 [info ] [MainThread]: Using profiles dir at C:\Users\budan\.dbt
+[0m11:41:05.527869 [info ] [MainThread]: Using profiles.yml file at C:\Users\budan\.dbt\profiles.yml
+[0m11:41:05.528619 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\budan\Desktop\kaylan\electives\nyc-taxi-analytics-engine\nyc_taxi_pipeline\transform_dbt\dbt_project.yml
+[0m11:41:05.535613 [info ] [MainThread]: adapter type: duckdb
+[0m11:41:05.536419 [info ] [MainThread]: adapter version: 1.11.0
+[0m11:41:05.749983 [info ] [MainThread]: Configuration:
+[0m11:41:05.750975 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:41:05.751718 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:41:05.752426 [info ] [MainThread]: Required dependencies:
+[0m11:41:05.753154 [debug] [MainThread]: Executing "git --help"
+[0m11:41:05.886066 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:41:05.886884 [debug] [MainThread]: STDERR: "b''"
+[0m11:41:05.887545 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:41:05.888255 [info ] [MainThread]: Connection:
+[0m11:41:05.888940 [info ] [MainThread]:   database: dev
+[0m11:41:05.889575 [info ] [MainThread]:   schema: main
+[0m11:41:05.890197 [info ] [MainThread]:   path: dev.duckdb
+[0m11:41:05.890823 [info ] [MainThread]:   config_options: None
+[0m11:41:05.891440 [info ] [MainThread]:   extensions: None
+[0m11:41:05.892053 [info ] [MainThread]:   settings: {}
+[0m11:41:05.892676 [info ] [MainThread]:   external_root: .
+[0m11:41:05.893308 [info ] [MainThread]:   use_credential_provider: None
+[0m11:41:05.894641 [info ] [MainThread]:   attach: None
+[0m11:41:05.903747 [info ] [MainThread]:   filesystems: None
+[0m11:41:05.904520 [info ] [MainThread]:   remote: None
+[0m11:41:05.905181 [info ] [MainThread]:   plugins: None
+[0m11:41:05.905796 [info ] [MainThread]:   disable_transactions: False
+[0m11:41:05.906920 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m11:41:07.012547 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m11:41:07.396609 [debug] [MainThread]: Using duckdb connection "debug"
+[0m11:41:07.397239 [debug] [MainThread]: On debug: select 1 as id
+[0m11:41:07.397692 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:41:07.442798 [debug] [MainThread]: SQL status: OK in 0.045 seconds
+[0m11:41:07.444361 [debug] [MainThread]: On debug: Close
+[0m11:41:07.445336 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:41:07.446088 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:41:07.446845 [info ] [MainThread]: Your new dbt project "transform_dbt" was created!
+Initialized new project in C:\Users\budan\Desktop\kaylan\electives\nyc-taxi-analytics-engine\nyc_taxi_pipeline\transform_dbt\transform_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:41:07.449030 [debug] [MainThread]: Command `dbt init` succeeded at 11:41:07.448778 after 23.35 seconds
+[0m11:41:07.449594 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:41:07.450118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019B9FF83E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA0612690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA049B460>]}
+[0m11:41:07.450806 [debug] [MainThread]: Flushing usage events
+[0m11:41:09.229570 [debug] [MainThread]: An error was encountered while trying to flush usage events
