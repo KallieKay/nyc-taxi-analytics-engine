@@ -87,6 +87,3 @@ This project implements a strict Medallion Architecture (Bronze -> Silver -> Gol
     ├── run_pipeline.ps1            # Windows reproduction script
     ├── run_pipeline.sh             # Mac/Linux reproduction script
     └── requirements.txt
-
-
-p
