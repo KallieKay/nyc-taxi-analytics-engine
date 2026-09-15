@@ -89,3 +89,4 @@ This project implements a strict Medallion Architecture (Bronze -> Silver -> Gol
     └── requirements.txt
 
 
+p
