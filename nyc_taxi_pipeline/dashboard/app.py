@@ -12,7 +12,7 @@ st.markdown("Interactive dashboard powered by a local Medallion Data Pipeline (D
 
 # 1. Connect to the local DuckDB database
 # Using an absolute path approach to ensure it finds the DB no matter where the script is run from
-db_path = os.path.join(os.getcwd(), 'transform_dbt', 'data', 'analytics.duckdb')
+db_path = os.path.join(os.getcwd(), 'data', 'analytics.duckdb')
 
 @st.cache_data
 def load_data(query):
