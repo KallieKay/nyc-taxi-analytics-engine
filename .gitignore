@@ -1,4 +1,8 @@
-.venv/
-data/
-.duckdb/
-__pycache__/
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.env.*
+!.env.example
+.DS_Store

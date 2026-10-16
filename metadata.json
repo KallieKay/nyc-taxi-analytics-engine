@@ -1,0 +1,8 @@
+{
+  "name": "NYC Taxi Analytics Engine",
+  "description": "Interactive dashboard powered by a local Medallion Data Pipeline (DuckDB + dbt) analyzing NYC Yellow Taxi trips, daily revenue trends, and peak tipping hours.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
