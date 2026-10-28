@@ -1,5 +1,7 @@
 # NYC Taxi Analytics Engine 🚕
 
+WTC-4VBP3B2M
+
 An interactive React analytics dashboard and Medallion Data Pipeline visualizer ported from Python (Streamlit + DuckDB + dbt) into a modern, high-performance React application.
 
 This application replicates and expands upon the analytical models, business metrics, and data visualizations of the NYC Yellow Taxi ELT pipeline (analyzing 3+ million trips from January 2023), featuring diurnal gratuity patterns, rush-hour passenger demand, payment channel distributions, and pipeline data quality testing.
