@@ -6,6 +6,8 @@ An interactive React analytics dashboard and Medallion Data Pipeline visualizer 
 
 This application replicates and expands upon the analytical models, business metrics, and data visualizations of the NYC Yellow Taxi ELT pipeline (analyzing 3+ million trips from January 2023), featuring diurnal gratuity patterns, rush-hour passenger demand, payment channel distributions, and pipeline data quality testing.
 
+> 🎓 **Academic / Coursework Evaluators:** For a complete 5-to-8 minute oral presentation walkthrough, live click cues, and professor/TA defense Q&A answers, see [`DEMO_SCRIPT.md`](DEMO_SCRIPT.md).
+
 ---
 
 ## 🎯 Key Features & Graph Metrics
